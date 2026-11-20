@@ -5,8 +5,9 @@ def dot_product(x: list, y: list) -> float:
     Returns the dot product as a float.
     """
     # Write code here
-    summ = 0.0
-    for i, xi in enumerate(x):
-        summ += x[i] * y[i]
+    # summ = 0.0
+    # for i, xi in enumerate(x):
+    #     summ += x[i] * y[i]
 
-    return summ
+    # return summ
+    return float(np.dot(x,y))
